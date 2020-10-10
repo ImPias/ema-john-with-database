@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 import Product from '../Product/Product';
 
 const ProductDetails = () => {
+    document.title = "Product Details - Ema John";
     const { productKey } = useParams();
     const [loading, setLoading] = useState(true);
     const [product, setProduct] = useState({})

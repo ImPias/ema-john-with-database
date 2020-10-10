@@ -52,7 +52,7 @@ const Shop = () => {
         <div className="twin-container">
             <div className="product-container">
                 {
-                    products.length === 0 && <p>Loading</p>
+                    products.length === 0 && <p>Loading...</p>
                 }
                 <ul>
                     {
